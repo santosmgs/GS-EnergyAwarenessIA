@@ -139,7 +139,7 @@ O fluxo do Node-RED contém:
 
 **Link para o vídeo demonstrativo**
 
-O vídeo explica como o Node-RED e o ESP32 interagem, com exemplos de consumo e controle do LED.
+Acesse o vídeo no youtube: [clique aqui](https://www.youtube.com/@santoxz_).
 
 ---
 
