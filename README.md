@@ -62,6 +62,7 @@ Este projeto IoT monitora e controla o consumo energético em tempo real utiliza
      node-red
      ```
    - Acesse o Node-RED no navegador: [http://localhost:1880](http://localhost:1880).
+   - Acesse o dashboard interativo do Node-RED: [http://localhost:1880/ui](http://localhost:1880/ui)
 
 3. **Configuração dos tópicos MQTT:**
    - O ESP32 publica dados no tópico `fiap/iot/consumoea`.
