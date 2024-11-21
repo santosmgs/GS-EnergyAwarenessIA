@@ -1,0 +1,376 @@
+[
+    {
+        "id": "6f0d58248f371870",
+        "type": "tab",
+        "label": "Energy Awareness - GS",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "be8eefd12ed952b4",
+        "type": "tab",
+        "label": "GS - Energy Awareness",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c3d39c43d8308194",
+        "type": "mqtt-broker",
+        "name": "MQTTs da EA",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "0bf2b3cbf8c51210",
+        "type": "ui_group",
+        "name": "Consumo",
+        "tab": "aba689e75fc11873",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8e119bff1c97c734",
+        "type": "ui_group",
+        "name": "Controle",
+        "tab": "",
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c6255a8203607e42",
+        "type": "mqtt-broker",
+        "name": "MQTT - Teste",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "9333de901ead483b",
+        "type": "ui_group",
+        "name": "Consumo Teste",
+        "tab": "",
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "aba689e75fc11873",
+        "type": "ui_tab",
+        "name": "Controle de Energia",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "aa40a911c83348d2",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "6df1ab8a9173d380",
+        "type": "mqtt in",
+        "z": "be8eefd12ed952b4",
+        "name": "Receber Consumo e LED",
+        "topic": "fiap/iot/consumoea",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "c3d39c43d8308194",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "219e8eee5964e9c9"
+            ]
+        ]
+    },
+    {
+        "id": "aaa8e23ef67236fd",
+        "type": "mqtt out",
+        "z": "be8eefd12ed952b4",
+        "name": "MQTT OUT",
+        "topic": "fiap/iot/led",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "c3d39c43d8308194",
+        "x": 490,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "219e8eee5964e9c9",
+        "type": "function",
+        "z": "be8eefd12ed952b4",
+        "name": "Processar JSON",
+        "func": "let payload = msg.payload;\n\n// Verifica se o payload é uma string e converte para objeto JSON\nif (typeof payload === \"string\") {\n    payload = JSON.parse(payload);\n}\n\n// Separa os dados e os coloca em msg\nmsg.consumo = payload.consumo; // Consumo de energia\nmsg.led = payload.led;         // Estado do LED\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 190,
+        "y": 160,
+        "wires": [
+            [
+                "b4d683b64970ea54",
+                "b93c3da2779c885f",
+                "ee509b8dbf95d5c1"
+            ]
+        ]
+    },
+    {
+        "id": "b4d683b64970ea54",
+        "type": "ui_gauge",
+        "z": "be8eefd12ed952b4",
+        "name": "Medidor Consumo",
+        "group": "0bf2b3cbf8c51210",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Consumo (%)",
+        "label": "",
+        "format": "{{msg.consumo}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 490,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "b93c3da2779c885f",
+        "type": "ui_text",
+        "z": "be8eefd12ed952b4",
+        "group": "0bf2b3cbf8c51210",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Texto Estado LED",
+        "label": "Estado do LED",
+        "format": "{{msg.led}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 490,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "709822d42f3c0e97",
+        "type": "ui_switch",
+        "z": "be8eefd12ed952b4",
+        "name": "",
+        "label": "Controle LED",
+        "tooltip": "",
+        "group": "0bf2b3cbf8c51210",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "fiap/iot/led",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 280,
+        "y": 340,
+        "wires": [
+            [
+                "aaa8e23ef67236fd"
+            ]
+        ]
+    },
+    {
+        "id": "ee509b8dbf95d5c1",
+        "type": "debug",
+        "z": "be8eefd12ed952b4",
+        "name": "Monitoramento",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 240,
+        "wires": []
+    }
+]
