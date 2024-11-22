@@ -139,7 +139,7 @@ O fluxo do Node-RED contém:
 
 **Link para o vídeo demonstrativo**
 
-Acesse o vídeo no youtube: [clique aqui](https://www.youtube.com/@santoxz_).
+Acesse o vídeo no youtube: [clique aqui](https://www.youtube.com/watch?v=PM64tbAKQdI).
 
 ---
 
